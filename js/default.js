@@ -9,8 +9,8 @@ var Fizz_Buzz = fonction(number){
     for(var i =1; i <101; i++){
     var li = document.createElement('li');
     var number = -1+i;
-    if(number%15==0)
+    if(number%15==0){
     li.textContent = 'FizzBuzz';
     document.getElementById('number').appendChild(li);
+    }
   }
-  
